@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo a String
-        run: echo "Hello Nishanth! This is a Github Actions Workflow file"
+        run: echo "Hello Nishanth R! This is a Github Actions Workflow file"
